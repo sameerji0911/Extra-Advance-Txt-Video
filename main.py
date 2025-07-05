@@ -51,7 +51,7 @@ bot = Client(
 cookies_file_path= "youtube_cookies.txt"
 
 
-auth_users = [7431004177,]
+auth_users = [7431004177,5252529212,]
 
 # Command to authorize a user
 @bot.on_message(filters.command("auth") & filters.private)
